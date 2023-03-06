@@ -1,0 +1,78 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Thoma, sans-serif;
+}
+
+header{
+    display: flex;
+    /*alinhamento horizontal - alinhar os itens da esquerda para direita*/
+    /* sapce-between levou os itens(home, sobre, login e contato) para o canto direito */
+    justify-content: space-between;
+    /* espaçamento entre o logo e o menu verticalmente */
+    align-items: center;
+    padding: 15px;
+    background-color: aquamarine;
+    min-height: 50px;
+}
+
+a{
+    /* tira o suplinhado do link */
+    text-decoration: none;
+    color: green;
+}
+
+.menu{
+    /* muda o menu de coluna para linha */
+    display: flex;
+}
+
+.menu li{
+    /*espaçamento dos links para a esquerda*/
+    margin-left: 50px;
+    /*tira a bolinha(°) de listagem*/
+    list-style: none;
+    font-size: 1.2rem;
+    padding: 5px;
+}
+
+h1{
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+    width: 150px;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 880px;
+    /* centraliza na margem automaticamente */
+    margin: 0 auto; 
+}
+
+/*significa filho-direto do elemento. Seleciona todos os filhos-diretos do elemento.*/
+.flex > div{
+    /*posiciona cada item(div)*/
+	flex: 1 1 250px;
+	margin: 10px;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+footer{
+    min-height: 50px;
+    margin-top: auto;
+    background-color: aquamarine;
+    text-align: center;
+}

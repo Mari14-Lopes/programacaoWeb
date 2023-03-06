@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Thoma, sans-serif;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    /* sapce-between levou os itens(home, sobre, login e contato) para o canto direito */
+    justify-content: space-between;
+    background-color: aquamarine;
+    min-height: 50px;
+    align-items: center;
+}
+
+.menu{
+    display: flex;
+}
+
+.menu li{
+    margin-left: 50px;
+    padding: 5px;
+    list-style: none;
+    font-size: 1.2rem;
+}
+
+a{
+    /* tira o suplinhado do link */
+    text-decoration: none;
+    color: green;
+}
+
+h1{
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+label{
+    font-family: sans-serif;
+    font-size: 15px;
+    color: rgb(81, 83, 85);
+}
+
+input{
+    display: block;
+}
+
+div{
+    padding: 10px;
+}
