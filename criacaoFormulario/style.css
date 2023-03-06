@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.conteudo{
+    width: 300px;
+    margin: 10px auto 10px auto;
+    padding: 10px 20px 10px 20px;
+}
+
+.formulario{
+    background-color: #D2EDF0;
+}
+
+h1{
+    background-color: rgb(61, 149, 190);
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 18px;
+    margin: center;
+    padding: 6px;
+    text-align: center;
+}
+
+fieldset{
+    border: 0;
+    margin-left: 3%;
+    margin-top: 3%;
+}
+
+fieldset label{
+    font-family: sans-serif;
+    font-size: 12px;
+}
+
+fieldset legend{
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+input[type="text"], input[type="email"], input[type="password"]{
+    display: block;
+    font-size: 15px;
+    margin: 5px;
+    padding: 10px;
+    outline: 0;
+    height: auto;
+    border: 0;
+    width: 85%;
+    background-color: rgb(167, 213, 214);
+}
+
+select, textarea{
+    display: block;
+    border: 0;
+    background-color: rgb(167, 213, 214);
+    margin: 5px;
+}
+
+button{
+    font-size: 12px;
+    background-color: rgb(61, 149, 190);
+    color: #ffffff;
+    border: 0;
+    margin: 10px;
+    padding: 5px 100px;
+
+}
+
+textarea{
+    font-size: 16px;
+    padding: 10px;
+    width: 85%;
+}
