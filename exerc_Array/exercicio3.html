@@ -8,34 +8,13 @@
     <script src="js/script3.js"></script>
 </head>
 <body>
-    <!--3. Crie uma função em javascript que transforme um numero que 
-    estaja contido no seguinte 
-    array [1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1] 
-    em número romano. Imprima na tela o número romano
-    referente ao número escolhido. Para desenvolver esse exercício, 
-    crie também um array de número romanos.
-
-        funcao para converter numeros para numeros romanos js
-
-    // Function to convert decimal to Roman Numerals int printRoman(int number)
-{
-    int num[] = {1,4,5,9,10,40,50,90,100,400,500,900,1000};
-    string sym[] = {"I","IV","V","IX","X","XL","L","XC","C","CD","D","CM","M"};
-    int i=12;   
-    while(number>0)
-    {
-      int div = number/num[i];
-      number = number%num[i];
-      while(div--)
-      {
-        cout<<sym[i];
-      }
-      i--;
-    }
-}-->
     <div class="conteudo">
         <h1>Converter numeros para romanos</h1>
-
+        <p>Numeros: 1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1</p>
+        <p>Digite um desses numeros para converter para numero romano</p>
+        <input type="number" id="numero">
+        <button onclick="imprimir()">Imprimir</button>
+        <p id="imprimir"></p>
     </div>
 </body>
 </html>
