@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header class="cabecalho">
+        <nav class="links">
+            <ul class="menu">
+                <li><a href="" class="menu_titulo">Menu</a>
+                    <ul class="submenu">
+                        <li><a href="" class="submneu_nome">Home</a></li>
+                        <li><a href="" class="submneu_nome">Sobre</a></li>
+                        <li><a href="" class="submneu_nome">Contato</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div class="conteudo">
+        <form action="" class="formulario">
+            <h3 class="login">Login</h3>
+            <div class="usuario">
+                <label for="usuario">Usuário</label>
+                <input type="text" id="usuario">
+                <!--Atributo aria-hidden
+                para ocultar visualmente o elemento, 
+                mantendo-o acessível a tecnologias assistivas.-->
+                <span role="alert" id="alerta" aria-hidden="true">
+                    Usuário deve ser preenchido!
+                </span>
+            </div>
+            
+            <div class="senha">
+                <label for="senha">Senha</label>
+                <input type="password" id="senha">
+                <span role="alert" id="alerta_senha" aria-hidden="true">
+                    Senha deve ser preenchida!
+                </span>
+            </div>
+            <button id="botao">Autenticar</button>
+        </form>
+    </div>
+</body>
+</html>
