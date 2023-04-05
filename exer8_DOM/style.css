@@ -91,3 +91,14 @@ button{
 #alerta_senha.visible{
     display: block;
 }
+
+#alerta_senha_qtd{
+    display: none;
+    color: red;
+    font-size: 12px;
+    margin: 2px 15px;
+}
+
+#alerta_senha_qtd.visible{
+    display: block;
+}

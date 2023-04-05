@@ -34,5 +34,12 @@ function validar(evento) {
         senha.setAttribute("aria-hidden", true);
     }
 
+    if(senha.length < 6 || senha.length > 30){
+        const error_senha = document.getElementById("alerta_senha_qtd");
+        error_senha.classList.add("visible");
+        senha.setAttribute("aria-hidden", false);
+        senha.setAttribute("aria-hidden", true);
+    }
+
     return valid;
 }
