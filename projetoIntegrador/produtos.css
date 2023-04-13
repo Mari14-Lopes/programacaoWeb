@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    width: 20px;
+}
+
+.cabecalho_pesquisa{
+    background-color: #390099;
+}
+
+.cabecalho_menu{
+    background-color: #FF5A5F;
+}
