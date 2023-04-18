@@ -1,16 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Poppins', sans-serif;
 }
 
 img{
     width: 20px;
+    height: 20px;
 }
 
 .cabecalho_pesquisa{
+    padding: 30px;
     background-color: #390099;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .cabecalho_menu{
     background-color: #FF5A5F;
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+.logo{
+   color: #ffff;
+}
+
+.pesquisa{
+    border-radius: 20px;
+    border: 0;
+    width: 700px;
+    height: 30px;
+}
+
+.botao{
+    border: 0;
+    border-radius: 20px;
+    width: 140px;
+    height: 30px;
+    background-color: #FF5A5F;
+    color: #ffff;
+    font-weight: 600;
+    font-size: 10px;
+}
+
+.carrinho, .entrar{
+    font-size: 10px;
+    color: #ffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 600;
+}
+
+a{
+    text-decoration: none;
+    color: #ffff;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.cabecalho_menu li{
+    list-style: none;
+    gap: 10px;
+}
+
+.botoes{
+    display: flex;
+    gap: 30px;
 }
