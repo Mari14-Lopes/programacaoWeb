@@ -6,7 +6,7 @@
     font-family: 'Poppins', sans-serif;
 }
 
-img{
+.lupa, .carrinho, .entrar{
     width: 20px;
     height: 20px;
 }
@@ -73,3 +73,33 @@ a{
     display: flex;
     gap: 30px;
 }
+
+.filtro{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 1200px;
+    max-width: 200px;
+    min-width: 200px;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+.categoria, .preco, .marca, .cor, .avaliacao{
+    padding-top: 15px;
+}
+
+.filtro_titulo{
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.categoria_titulo, .preco_titulo, .marca_titulo, .avaliacao_titulo{
+    font-weight: 600;
+    padding-bottom: 5px;
+}
+
+.estrelas{
+    width: 100px;
+    height: 25px;
+}
+
