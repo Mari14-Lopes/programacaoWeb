@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
+    max-width: 100%;
 }
 
 .lupa, .carrinho, .entrar{
@@ -69,7 +70,25 @@ a{
     gap: 10px;
 }
 
+
 .botoes{
+    display: flex;
+    gap: 30px;
+}
+
+.secaoPrincipal{
+    display: flex;
+}
+
+.produtos{
+    display: flex;
+    flex-direction: column;
+    margin-left: 300px;
+    margin-top: 10px;
+    gap: 30px;
+}
+
+.linha1, .linha2, .linha3, .linha4, .linha5{
     display: flex;
     gap: 30px;
 }
@@ -77,11 +96,11 @@ a{
 .filtro{
     margin-top: 10px;
     margin-left: 10px;
-    margin-right: 1200px;
     max-width: 200px;
     min-width: 200px;
     padding: 20px;
     border: 1px solid black;
+    position: absolute;
 }
 
 .categoria, .preco, .marca, .cor, .avaliacao{
@@ -102,4 +121,13 @@ a{
     width: 100px;
     height: 25px;
 }
+
+.produto_nome, .produto_descricao, .produto_valor{
+    color: black;
+}
+
+.produto_imagem{
+    height: 300px;
+}
+
 
