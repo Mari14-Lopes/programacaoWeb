@@ -77,30 +77,28 @@ a{
 }
 
 .secaoPrincipal{
-    display: flex;
+    display: flex;justify-content: center;
 }
 
 .produtos{
     display: flex;
     flex-direction: column;
-    margin-left: 300px;
     margin-top: 10px;
     gap: 30px;
+    margin-right: auto;
 }
 
 .linha1, .linha2, .linha3, .linha4, .linha5{
     display: flex;
-    gap: 30px;
+    gap: 100px;
 }
 
 .filtro{
-    margin-top: 10px;
-    margin-left: 10px;
+    margin: 10px auto auto 10px;
     max-width: 200px;
     min-width: 200px;
     padding: 20px;
     border: 1px solid black;
-    position: absolute;
 }
 
 .categoria, .preco, .marca, .cor, .avaliacao{
@@ -128,6 +126,20 @@ a{
 
 .produto_imagem{
     height: 300px;
+}
+
+.produto_nome{
+    font-size: 15px;
+}
+
+.produto_descricao{
+    color: rgb(154, 155, 156);
+    text-decoration: line-through;
+}
+
+.produto_valor{
+    font-size: 20px;
+    font-weight: bold;
 }
 
 
