@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.accordion-cabecalho{
+    padding: 10px;
+    background-color: aquamarine;
+    border: solid 1px;
+}
+
+.accordion-conteudo{
+    padding: 5px;
+    background-color: antiquewhite;
+    border: solid 1px;
+    border-top: solid 2px;
+    display: none;
+}
